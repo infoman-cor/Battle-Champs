@@ -1,0 +1,35 @@
+nation
+
+[OBJECT:NATION]
+
+[NATION:GNOMES]
+	[LEADER_UNIT:Gnome General:1:1:1:1:'G':6:0:1]
+	[UNIT:Steam Infantry:1:1:2:2:'g':6:0:0]
+	[UNIT:Steam Airship:0:3:5:1:'A':3:0:1]
+	[UNIT:Steam Cannon:0:15:10:5:'C':0:0:1]
+	[UNIT:Steam Tank:0:10:6:3:'T':2:0:0]
+	[WORD_LIST:gnomes.txt]
+
+[NATION:BARBARIANS]
+	[LEADER_UNIT:Barbarian General:3:3:0:0:'B':4:0:1]
+	[UNIT:Infantry:2:2:0:0:'b':4:0:0]
+	[UNIT:Archer:1:1:3:1:'a':2:0:1]
+	[UNIT:Cavalry:3:5:0:0:'C':4:0:0]
+	[UNIT:Horse Archer:1:5:2:1:'H':2:0:1]
+	[WORD_LIST:barbarians.txt]
+
+[NATION:WIZARDS]
+	[LEADER_UNIT:Wizard:0:1:3:3:'W':4:0:1]
+	[UNIT:Goblin Warrior:1:1:0:0:'g':5:0:0]
+	[UNIT:Goblin Archer:0:1:2:1:'g':2:0:0]
+	[UNIT:Minotaur:3:6:0:0:'M':6:0:0]
+	[UNIT:Dragon:5:10:8:8:'D':2:0:1]
+	[WORD_LIST:wizards.txt]
+
+[NATION:CRYPTIDS]
+	[LEADER_UNIT:Sasquatch:2:5:0:0:'S':7:0:1]
+	[UNIT:Chupacabra:2:2:0:0:'c':6:0:0]
+	[UNIT:Death Worm:1:1:2:8:'w':4:0:1]
+	[UNIT:Atmospheric Beast:0:1:15:1:'A':7:0:0]
+	[UNIT:Sea Monster:5:5:0:0:'S':3:0:1]
+	[WORD_LIST:cryptids.txt]

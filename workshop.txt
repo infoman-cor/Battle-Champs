@@ -1,0 +1,19 @@
+need to deal with overcrowding -- there are only 9 army slots per map, but it'll let you move in anyway
+	this includes attacking one site from multiple locations
+		you should be able to attack with more than 9, but it then has to let you choose who stays among the survivors
+
+use row_count to get them to switch lanes, attack other lanes
+
+map-level attack AI
+//******************************* RESOLVE AI FIGHTS
+
+win condition
+
+save/load
+	it must save or set nation.next_global_id on load or it'll be wrong
+
+instructions
+
+allow growth of world map based on grid
+
+//******************************** TITLE

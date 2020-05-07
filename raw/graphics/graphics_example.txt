@@ -1,0 +1,11 @@
+graphics_example
+
+[OBJECT:GRAPHICS]
+
+[TILE_PAGE:GNOMES]
+	[FILE:example/gnomes.bmp]
+	[TILE_DIM:16:16]
+	[PAGE_DIM:2:1]
+
+[CREATURE_GRAPHICS:GNOMES]
+	[0:GNOMES:1:0]

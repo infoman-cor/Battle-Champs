@@ -1,0 +1,7 @@
+lightning
+spark
+aura
+fire
+ice
+beard
+glitter

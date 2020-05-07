@@ -1,0 +1,9 @@
+secret
+hidden
+invisible
+mystery
+stealth
+hunter
+monster
+shroud
+sneak

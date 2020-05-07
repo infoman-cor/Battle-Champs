@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game.vcxproj", "{04B1629B-D165-4266-999D-0032B4C7B363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugNoFmod|Win32 = DebugNoFmod|Win32
+		DebugOpt|Win32 = DebugOpt|Win32
+		DebugOptNoFmod|Win32 = DebugOptNoFmod|Win32
+		Release|Win32 = Release|Win32
+		ReleaseNoFmod|Win32 = ReleaseNoFmod|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B1629B-D165-4266-999D-0032B4C7B363}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.Debug|Win32.Build.0 = Debug|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugNoFmod|Win32.ActiveCfg = DebugNoFmod|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugNoFmod|Win32.Build.0 = DebugNoFmod|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugOpt|Win32.ActiveCfg = DebugOpt|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugOpt|Win32.Build.0 = DebugOpt|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugOptNoFmod|Win32.ActiveCfg = DebugOptNoFmod|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.DebugOptNoFmod|Win32.Build.0 = DebugOptNoFmod|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.Release|Win32.ActiveCfg = Release|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.Release|Win32.Build.0 = Release|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.ReleaseNoFmod|Win32.ActiveCfg = ReleaseNoFmod|Win32
+		{04B1629B-D165-4266-999D-0032B4C7B363}.ReleaseNoFmod|Win32.Build.0 = ReleaseNoFmod|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE5377A5-2AA0-4412-88B0-BB02D1476D2B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{99d50455-0810-4e65-a3c2-af0c3bfbb0e4}</UniqueIdentifier>
+      <Extensions>c,h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzio.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="mysource\basics.cpp" />
+    <ClCompile Include="mysource\command_line.cpp" />
+    <ClCompile Include="mysource\compat.cpp" />
+    <ClCompile Include="mysource\enabler.cpp" />
+    <ClCompile Include="mysource\files.cpp" />
+    <ClCompile Include="mysource\find_files.cpp" />
+    <ClCompile Include="mysource\game.cpp" />
+    <ClCompile Include="mysource\graphics.cpp" />
+    <ClCompile Include="mysource\init.cpp" />
+    <ClCompile Include="mysource\interface.cpp" />
+    <ClCompile Include="mysource\map.cpp" />
+    <ClCompile Include="mysource\music_and_sound.cpp" />
+    <ClCompile Include="mysource\nation.cpp" />
+    <ClCompile Include="mysource\nation_def.cpp" />
+    <ClCompile Include="mysource\random.cpp" />
+    <ClCompile Include="mysource\textlines.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.in.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mysource\basics.h" />
+    <ClInclude Include="mysource\command_line.h" />
+    <ClInclude Include="mysource\compat.h" />
+    <ClInclude Include="mysource\enabler.h" />
+    <ClInclude Include="mysource\endian.h" />
+    <ClInclude Include="mysource\files.h" />
+    <ClInclude Include="mysource\find_files.h" />
+    <ClInclude Include="mysource\game_extv.h" />
+    <ClInclude Include="mysource\game_g.h" />
+    <ClInclude Include="mysource\game_v.h" />
+    <ClInclude Include="mysource\graphics.h" />
+    <ClInclude Include="mysource\init.h" />
+    <ClInclude Include="mysource\interface.h" />
+    <ClInclude Include="mysource\map.h" />
+    <ClInclude Include="mysource\music_and_sound_g.h" />
+    <ClInclude Include="mysource\music_and_sound_v.h" />
+    <ClInclude Include="mysource\nation.h" />
+    <ClInclude Include="mysource\nation_def.h" />
+    <ClInclude Include="mysource\random.h" />
+    <ClInclude Include="mysource\resource.h" />
+    <ClInclude Include="mysource\svector.h" />
+    <ClInclude Include="mysource\template.h" />
+    <ClInclude Include="mysource\textlines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mysource\icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mysource\resource1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="workshop.txt" />
+  </ItemGroup>
+</Project>
